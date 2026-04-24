@@ -1,0 +1,93 @@
+{
+  "name": "trance",
+  "tempo": {
+    "min": 132,
+    "max": 142
+  },
+  "default_key": "E_minor",
+  "scale_pool": [
+    "natural_minor",
+    "harmonic_minor",
+    "dorian"
+  ],
+  "time_signature": "4/4",
+  "swing": 0.01,
+  "humanize": {
+    "timing_ms": 4,
+    "velocity": 6,
+    "note_length": 0.03
+  },
+  "sections": [
+    {
+      "name": "intro",
+      "bars": 16,
+      "energy": 0.45
+    },
+    {
+      "name": "build",
+      "bars": 16,
+      "energy": 0.7
+    },
+    {
+      "name": "chorus",
+      "bars": 16,
+      "energy": 0.95
+    }
+  ],
+  "chords": {
+    "rhythm": "quarter_pulse",
+    "progression_pool": [
+      [
+        "i",
+        "VI",
+        "III",
+        "VII"
+      ],
+      [
+        "i",
+        "VII",
+        "VI",
+        "VII"
+      ],
+      [
+        "i",
+        "iv",
+        "v",
+        "VI"
+      ]
+    ]
+  },
+  "bass": {
+    "style": "arpeggiated",
+    "density": 0.8,
+    "octave": 2
+  },
+  "drums": {
+    "kit": "electronic",
+    "kick": "four_on_floor",
+    "snare": "backbeat",
+    "hats": "eighths",
+    "fills": true
+  },
+  "melody": {
+    "density": 0.5,
+    "octave": 5,
+    "contour": "arch",
+    "motif_repetition": 0.7,
+    "avoid_over_chords": false
+  },
+  "tracks": {
+    "drums": {
+      "channel": 10
+    },
+    "bass": {
+      "program": 39
+    },
+    "chords": {
+      "program": 91
+    },
+    "lead": {
+      "program": 81
+    }
+  }
+}

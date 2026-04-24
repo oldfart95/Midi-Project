@@ -1,0 +1,88 @@
+{
+  "name": "boom_bap",
+  "tempo": {
+    "min": 78,
+    "max": 96
+  },
+  "default_key": "D_minor",
+  "scale_pool": [
+    "natural_minor",
+    "blues_minor",
+    "pentatonic_minor"
+  ],
+  "time_signature": "4/4",
+  "swing": 0.1,
+  "humanize": {
+    "timing_ms": 16,
+    "velocity": 11,
+    "note_length": 0.08
+  },
+  "sections": [
+    {
+      "name": "loop",
+      "bars": 8,
+      "energy": 0.6
+    },
+    {
+      "name": "variation",
+      "bars": 8,
+      "energy": 0.7
+    }
+  ],
+  "chords": {
+    "rhythm": "stabs",
+    "progression_pool": [
+      [
+        "i",
+        "iv",
+        "i",
+        "VII"
+      ],
+      [
+        "i",
+        "VI",
+        "VII",
+        "i"
+      ],
+      [
+        "i",
+        "i",
+        "iv",
+        "V"
+      ]
+    ]
+  },
+  "bass": {
+    "style": "root_notes",
+    "density": 0.55,
+    "octave": 2
+  },
+  "drums": {
+    "kit": "boom_bap",
+    "kick": "boom_bap",
+    "snare": "boom_bap",
+    "hats": "eighths",
+    "fills": true
+  },
+  "melody": {
+    "density": 0.2,
+    "octave": 5,
+    "contour": "random_walk",
+    "motif_repetition": 0.6,
+    "avoid_over_chords": true
+  },
+  "tracks": {
+    "drums": {
+      "channel": 10
+    },
+    "bass": {
+      "program": 34
+    },
+    "chords": {
+      "program": 3
+    },
+    "lead": {
+      "program": 82
+    }
+  }
+}
