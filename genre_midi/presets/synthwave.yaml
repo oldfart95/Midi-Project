@@ -1,0 +1,98 @@
+{
+  "name": "synthwave",
+  "tempo": {
+    "min": 82,
+    "max": 110
+  },
+  "default_key": "A_minor",
+  "scale_pool": [
+    "natural_minor",
+    "harmonic_minor",
+    "dorian"
+  ],
+  "time_signature": "4/4",
+  "swing": 0.08,
+  "humanize": {
+    "timing_ms": 10,
+    "velocity": 8,
+    "note_length": 0.08
+  },
+  "sections": [
+    {
+      "name": "intro",
+      "bars": 8,
+      "energy": 0.35
+    },
+    {
+      "name": "verse",
+      "bars": 8,
+      "energy": 0.55
+    },
+    {
+      "name": "chorus",
+      "bars": 16,
+      "energy": 0.85
+    },
+    {
+      "name": "outro",
+      "bars": 8,
+      "energy": 0.35
+    }
+  ],
+  "chords": {
+    "rhythm": "whole_notes",
+    "progression_pool": [
+      [
+        "i",
+        "VI",
+        "III",
+        "VII"
+      ],
+      [
+        "i",
+        "VII",
+        "VI",
+        "VII"
+      ],
+      [
+        "i",
+        "iv",
+        "VI",
+        "V"
+      ]
+    ]
+  },
+  "bass": {
+    "style": "octave_pulse",
+    "density": 0.65,
+    "octave": 2
+  },
+  "drums": {
+    "kit": "electronic",
+    "kick": "four_on_floor",
+    "snare": "backbeat",
+    "hats": "eighths",
+    "fills": true
+  },
+  "melody": {
+    "density": 0.45,
+    "octave": 5,
+    "contour": "arch",
+    "motif_repetition": 0.65,
+    "avoid_over_chords": false
+  },
+  "tracks": {
+    "drums": {
+      "channel": 10
+    },
+    "bass": {
+      "program": 38
+    },
+    "chords": {
+      "program": 89
+    },
+    "lead": {
+      "program": 81
+    }
+  }
+}

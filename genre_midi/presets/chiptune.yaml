@@ -1,0 +1,93 @@
+{
+  "name": "chiptune",
+  "tempo": {
+    "min": 120,
+    "max": 170
+  },
+  "default_key": "C_major",
+  "scale_pool": [
+    "major",
+    "natural_minor",
+    "pentatonic_minor"
+  ],
+  "time_signature": "4/4",
+  "swing": 0.0,
+  "humanize": {
+    "timing_ms": 2,
+    "velocity": 4,
+    "note_length": 0.02
+  },
+  "sections": [
+    {
+      "name": "a",
+      "bars": 8,
+      "energy": 0.6
+    },
+    {
+      "name": "b",
+      "bars": 8,
+      "energy": 0.75
+    },
+    {
+      "name": "a2",
+      "bars": 8,
+      "energy": 0.8
+    }
+  ],
+  "chords": {
+    "rhythm": "quarter_pulse",
+    "progression_pool": [
+      [
+        "I",
+        "V",
+        "vi",
+        "IV"
+      ],
+      [
+        "i",
+        "VI",
+        "III",
+        "VII"
+      ],
+      [
+        "I",
+        "IV",
+        "V",
+        "I"
+      ]
+    ]
+  },
+  "bass": {
+    "style": "chiptune_square",
+    "density": 0.9,
+    "octave": 2
+  },
+  "drums": {
+    "kit": "chiptune",
+    "kick": "chiptune_simple",
+    "snare": "backbeat",
+    "hats": "eighths",
+    "fills": false
+  },
+  "melody": {
+    "density": 0.65,
+    "octave": 6,
+    "contour": "rising",
+    "motif_repetition": 0.7,
+    "avoid_over_chords": false
+  },
+  "tracks": {
+    "drums": {
+      "channel": 10
+    },
+    "bass": {
+      "program": 80
+    },
+    "chords": {
+      "program": 81
+    },
+    "lead": {
+      "program": 80
+    }
+  }
+}

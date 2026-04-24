@@ -1,0 +1,98 @@
+{
+  "name": "chillwave",
+  "tempo": {
+    "min": 75,
+    "max": 100
+  },
+  "default_key": "D_minor",
+  "scale_pool": [
+    "major",
+    "natural_minor",
+    "dorian"
+  ],
+  "time_signature": "4/4",
+  "swing": 0.06,
+  "humanize": {
+    "timing_ms": 12,
+    "velocity": 10,
+    "note_length": 0.1
+  },
+  "sections": [
+    {
+      "name": "intro",
+      "bars": 8,
+      "energy": 0.3
+    },
+    {
+      "name": "verse",
+      "bars": 8,
+      "energy": 0.45
+    },
+    {
+      "name": "chorus",
+      "bars": 8,
+      "energy": 0.65
+    },
+    {
+      "name": "bridge",
+      "bars": 8,
+      "energy": 0.5
+    }
+  ],
+  "chords": {
+    "rhythm": "syncopated",
+    "progression_pool": [
+      [
+        "i",
+        "VII",
+        "VI",
+        "VII"
+      ],
+      [
+        "I",
+        "V",
+        "vi",
+        "IV"
+      ],
+      [
+        "i",
+        "iv",
+        "VI",
+        "V"
+      ]
+    ]
+  },
+  "bass": {
+    "style": "root_notes",
+    "density": 0.5,
+    "octave": 2
+  },
+  "drums": {
+    "kit": "electronic",
+    "kick": "breakbeat_light",
+    "snare": "backbeat",
+    "hats": "quarters",
+    "fills": true
+  },
+  "melody": {
+    "density": 0.35,
+    "octave": 5,
+    "contour": "random_walk",
+    "motif_repetition": 0.5,
+    "avoid_over_chords": false
+  },
+  "tracks": {
+    "drums": {
+      "channel": 10
+    },
+    "bass": {
+      "program": 33
+    },
+    "chords": {
+      "program": 88
+    },
+    "lead": {
+      "program": 81
+    }
+  }
+}
